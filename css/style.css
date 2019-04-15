@@ -1,10 +1,19 @@
 body {
   background: #ccc;
-  font-family: "Helvetica", "Arial", sans-serif;
+  color: #333;
+  font-family: "Trebuchet MS", sans-serif;
   font-size: 16px;
 }
-h1 {
-  font-size: 45px;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin: 20px 0;
+}
+h1 {font-size: 48px;}
+h2 {font-size: 30px;}
+h3 {font-size: 26px;}
+a {
+  text-decoration: none;
+  color: #000;
 }
 hr {
   border:none;
@@ -14,6 +23,16 @@ hr {
   border-bottom: 1px solid #ccc;
   box-shadow: 0 20px 20px -20px #ccc;
   margin: -50px auto 10px;
+}
+button {
+  font-size: 20px;
+  padding: 20px 30px;
+  background: #3933FF;
+  color: #fff;
+  border: none;
+  min-width: 180px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 header {
   color: #fff;
@@ -67,9 +86,6 @@ header .desc {
   font-size: 18px;
 }
 .top-bar .nav-holder ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
   display: block;
   height: 90px;
 }
@@ -87,6 +103,8 @@ header .desc {
   padding: 40px 20px;
   display: grid;
   grid-template-areas: "screens data";
+  grid-template-columns: 400px auto;
+  grid-column-gap: 40px;
 }
 .constrain {
   max-width: 1000px;
@@ -148,4 +166,16 @@ header .desc {
   width: 50px;
   right: 0px;
   top: 80px;
+}
+.pod ul.skills {
+  margin-top: 20px;
+}
+.pod ul.skills li {
+  display: inline-block;
+  margin: 2px;
+  background: #3933FF;
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
 }
