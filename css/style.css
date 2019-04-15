@@ -1,0 +1,25 @@
+body {
+  background: #ccc;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+h1 {
+  font-size: 45px;
+}
+#bg-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+
+  background-image: url(/img/bg.jpg); background-size: cover;
+}
+.main-header {
+  height: 90px;
+}
+#hero {
+  padding: 115px 0 200px;
+  color: #fff;
+  text-align: center;
+}
