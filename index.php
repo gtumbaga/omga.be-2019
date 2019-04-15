@@ -19,6 +19,13 @@
         <div class="desc">Full Stack Web Developer</div>
       </div>
       <div class="nav-holder">
+        <nav>
+          <ul id="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
   </header>
@@ -28,8 +35,25 @@
       <h2>LAMP Stack, MEAN Stack, MERN Stack</h2>
       <button>Contact Me!</button>
     </div>
-    Hello, AMP world.<br/>
-    My name is Gabe!
+    <div id="work">
+      <div class="pod constrain">
+        <div class="screens">
+          <div class="device laptop"><div class="inner">asdf</div></div>
+          <div class="device tablet"><div class="inner">asdf</div></div>
+          <div class="device smartphone"><div class="inner">asdf</div></div>
+        </div>
+        <div class="data">
+          <h3>Website Name</h3>
+          <p>This is the descriptive text</p>
+        </div>
+      </div>
+     <hr class="constrain"/>
+      <div class="pod constrain">
+        Hello, AMP world.<br/>
+        My name is Gabe!
+      </div>
+      <hr class="constrain" />
+    </div>
   </main>
 </body>
 </html>
