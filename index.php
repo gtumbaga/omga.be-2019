@@ -34,9 +34,9 @@
         <input type="checkbox" id="menu-toggler" name="menu-toggler">
         <nav id="site-navigation">
           <ul id="nav">
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#info">Info</a></li>
+            <li><a rel="noopener" href="#hero">Home</a></li>
+            <li><a rel="noopener" href="#work">Work</a></li>
+            <li><a rel="noopener" href="#info">Info</a></li>
           </ul>
         </nav>
       </div>
