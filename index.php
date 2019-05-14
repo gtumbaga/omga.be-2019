@@ -48,65 +48,27 @@
       <button>Contact Me!</button>
     </div>
     <div id="work">
-      <div class="pod constrain">
-        <div class="screens">
-          <div class="device laptop"><div class="inner"><amp-img alt="StagedHomes.com" src="/img/sites/stagedhomes/desktop.jpg" width="480" height="240" layout="responsive"></amp-img></div></div>
-          <div class="device tablet"><div class="inner"><amp-img alt="StagedHomes.com" src="/img/sites/stagedhomes/tablet.jpg" width="180" height="220" layout="responsive"></amp-img></div></div>
-          <div class="device smartphone"><div class="inner"><amp-img alt="StagedHomes.com" src="/img/sites/stagedhomes/smartphone.jpg" width="84" height="128" layout="responsive"></amp-img></div></div>
+
+      <?php foreach($siteList as $sitekey => $sitedata): ?>
+        <div class="pod constrain">
+          <div class="screens">
+          <div class="device laptop"><div class="inner"><amp-img alt="<?php print $sitedata['title']; ?>" src="/img/sites/<?php echo $sitekey; ?>_hidpi.jpg" width="480" height="300" layout="responsive"></amp-img></div></div>
+            <div class="device tablet"><div class="inner"><amp-img alt="<?php print $sitedata['title']; ?>" src="/img/sites/<?php echo $sitekey; ?>_ipad.jpg" width="180" height="240" layout="responsive"></amp-img></div></div>
+            <div class="device smartphone"><div class="inner"><amp-img alt="<?php print $sitedata['title']; ?>" src="/img/sites/<?php echo $sitekey; ?>_iphone.jpg" width="84" height="149" layout="responsive"></amp-img></div></div>
+          </div>
+          <div class="data">
+          <h3><a rel="noopener" href="<?php echo $sitedata['url']; ?>" target="_blank"><?php print $sitedata['title']; ?></a></h3>
+          <h4><?php print $sitedata['description']; ?></h4>
+          <p><?php echo $sitedata['mywork']; ?></p>
+          </div>
+          <ul class="skills">
+            <?php foreach ($sitedata['skills'] as $madskillzbro): ?>
+              <li><?php print $madskillzbro; ?></li>
+            <?php endforeach; ?>
+          </ul>
         </div>
-        <div class="data">
-          <h3><a rel="noopener" href="https://stagedhomes.com/" target="_blank">Staged Homes</a></h3>
-          <h4>The World Leader in Home Staging Training</h4>
-          <p>I help maintain</p>
-        </div>
-        <ul class="skills">
-          <li>PHP</li>
-          <li>Responsive</li>
-          <li>MySQL</li>
-        </ul>
-      </div>
-     <div class="constrain"><hr /></div>
-
-      <div class="pod constrain">
-        <div class="screens">
-          <div class="device laptop"><div class="inner"><amp-img alt="IAHSP.com" src="/img/sites/iahsp/desktop.jpg" width="480" height="240" layout="responsive"></amp-img></div></div>
-          <div class="device tablet"><div class="inner"><amp-img alt="IAHSP.com" src="/img/sites/iahsp/tablet.jpg" width="180" height="220" layout="responsive"></amp-img></div></div>
-          <div class="device smartphone"><div class="inner"><amp-img alt="IAHSP.com" src="/img/sites/iahsp/smartphone.jpg" width="84" height="128" layout="responsive"></amp-img></div></div>
-        </div>
-        <div class="data">
-          <h3><a rel="noopener" href="https://iahsp.com/" target="_blank">IAHSP®, The International Association of Home Staging Professionals®</a></h3>
-          <p>The largest and longest running Home Staging Industry Trade Association with thousands of members worldwide.</p>
-        </div>
-        <ul class="skills">
-          <li>Angular</li>
-          <li>Responsive</li>
-          <li>Firebase Firestore</li>
-        </ul>
-      </div>
-     <div class="constrain"><hr /></div>
-
-      <div class="pod constrain">
-        <div class="screens">
-          <div class="device laptop"><div class="inner"><amp-img alt="iahspconexpo.com" src="/img/sites/iahsp/desktop.jpg" width="480" height="240" layout="responsive"></amp-img></div></div>
-          <div class="device tablet"><div class="inner"><amp-img alt="iahspconexpo.com" src="/img/sites/iahsp/tablet.jpg" width="180" height="220" layout="responsive"></amp-img></div></div>
-          <div class="device smartphone"><div class="inner"><amp-img alt="iahspconexpo.com" src="/img/sites/iahsp/smartphone.jpg" width="84" height="128" layout="responsive"></amp-img></div></div>
-        </div>
-        <div class="data">
-          <h3><a rel="noopener" href="https://iahspconexpo.com/" target="_blank">2019 Educational Conference & EXPO!</a></h3>
-          <p>A high level educational event for top Home Staging business owners worldwide!</p>
-        </div>
-        <ul class="skills">
-          <li>Angular</li>
-          <li>Responsive</li>
-          <li>Firebase Firestore</li>
-        </ul>
-      </div>
-     <div class="constrain"><hr /></div>
-
-
-
-
-
+       <div class="constrain"><hr /></div>
+      <?php endforeach; ?>
 
 
 

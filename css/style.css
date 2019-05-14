@@ -171,7 +171,7 @@ header .desc {
 .laptop {
   margin: 0 20px;
   width: 260px;
-  height: 140px;
+  height: 146px;
   bottom: 10px;
 }
 .laptop:after {
@@ -185,7 +185,7 @@ header .desc {
 }
 .tablet {
   width: 100px;
-  height: 130px;
+  height: 140px;
   border-right-width: 5px;
   border-left-width: 5px;
   right: 34px;
@@ -196,7 +196,7 @@ header .desc {
   border-width: 4px;
   border-bottom-width: 8px;
   border-top-width: 8px;
-  height: 80px;
+  height: 90px;
   width: 50px;
   right: 0px;
   top: 80px;
