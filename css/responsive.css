@@ -1,0 +1,110 @@
+@media (min-width: 768px) {
+  .constrain {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .constrain {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .constrain {
+    width: 1170px;
+  }
+}
+@media (max-width: 767px) {
+  .top-bar .nav-holder ul {
+    display: block;
+    background: #3933FF;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    height: auto;
+  }
+  .top-bar .nav-holder ul li {
+    display: block;
+    border-bottom: solid 1px #fff;
+  }
+  .top-bar .nav-holder ul li:last-child {
+    border-bottom: none;
+  }
+  .top-bar .nav-holder ul li a {
+    height: auto;
+    padding: 20px;
+    text-align: left;
+  }
+  #btn-main-nav-toggle {
+    display: block;
+  }
+  #menu-toggler:checked ~ #site-navigation {
+    display: block;
+  }
+  #site-navigation {
+    display: none;
+    margin-top: 36px;
+  }
+  .constrain {
+    max-width: 600px;
+  }
+  .pod {
+    grid-template-areas:
+    "data"
+    "screens"
+    "skills"
+    ;
+    grid-template-columns: auto;
+    grid-row-gap: 40px;
+  }
+  .pod ul.skills {
+    margin-top: 0;
+  }
+  .pod .screens {
+    width:auto;
+    height: 475px;
+  }
+  .pod .device {
+    position: relative;
+    margin: 0 auto;
+  }
+  .pod .laptop {
+    width: 100%;
+    height: 0;
+    padding-bottom: 46%;
+    bottom: unset;
+    margin-bottom: 20px;
+  }
+  .pod .laptop:after {
+    margin-top: 268px;
+  }
+  .pod .tablet {
+    width: 170px;
+    height: 216px;
+    margin: unset;
+    margin-left: 50%;
+    float: left;
+    left: -114px;
+    top: -57px;
+  }
+  .pod .smartphone {
+    width: 70px;
+    height: 110px;
+    margin: unset;
+    left: unset;
+    float: right;
+    margin-right: 50%;
+    right: -109px;
+    top: -200px;
+  }
+}
+@media (max-width: 600px) {
+  .constrain {
+    max-width: 400px;
+  }
+  .pod .screens {
+    height: 375px;
+  }
+  .pod .laptop:after {
+    margin-top: 51%;
+  }
+}
