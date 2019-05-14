@@ -40,6 +40,9 @@ svg {
   width: 18px;
   color: #000;
 }
+.nav-holder svg {
+  width: 100%;
+}
 #info h6 {
   font-size: 28px;
 }

@@ -63,7 +63,7 @@ $siteList["fioprints"] = array(
 $siteList["shirtmeuptees"] = array(
   "url" => "https://www.shirtmeuptees.com/",
   "title" => "SHIRTMEUPTEES",
-  "description" => "Shirt Me Up Web Store",
+  "description" => "Drupal E-commerce Web Store",
   "mywork" => "I built this drupal 7 site to make use of drupal commerce.  I’ve customized a lot of things on this site, including a custom module that outputs data via XML to shipstation.  It contains CSV upload functionality in order to fill in all the variants of each commerce item.  It also contains an image generator that can generate images on demand (via PHP), as well as a new free-form text tool that lets you put any text you want on your product.  The front-end template makes use of Bootstrap, JS, Jquery, and CSS Grid on the product page.  I have this site running behind Cloudflare, to protect my server, provide good SSL (https), and provide DDOS protection.",
   "skills" => array("HTML", "CSS", "CSS Grid", "JS", "JQuery", "Bootstrap", "Responsive", "MySQL", "PHP", "Drupal", "Drupal Commerce", "ShipStation", "CloudFlare")
 );
@@ -71,7 +71,7 @@ $siteList["shirtmeuptees"] = array(
 $siteList["stayfrostees"] = array(
   "url" => "https://www.stayfrostees.com/",
   "title" => "STAYFROSTEES",
-  "description" => "Shirt Me Up Web Store",
+  "description" => "Drupal E-commerce Web Store",
   "mywork" => "I built this drupal 7 site to make use of drupal commerce.  I’ve customized a lot of things on this site, including a custom module that outputs data via XML to shipstation.  It contains CSV upload functionality in order to fill in all the variants of each commerce item. The front-end template makes use of bootstrap, JS, and Jquery.  I have this site running behind Cloudflare, to protect my server, provide good SSL (https), and provide DDOS protection.",
   "skills" => array("HTML", "CSS", "JS", "JQuery", "Bootstrap", "Responsive", "MySQL", "PHP", "Drupal", "Drupal Commerce", "ShipStation", "CloudFlare")
 );
