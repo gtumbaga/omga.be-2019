@@ -95,8 +95,8 @@ $siteList["perazzaprints"] = array(
 $siteList["procf"] = array(
   "url" => "http://pro-cf.com/",
   "title" => "Centrifugal Force Productions",
-  "description" => "This is a simple website built utilizing bootstrap, making it responsive.  It is making use of HTML5 audio tags for embeded mp3 playback.  It is making use of an iframe that is using a service called embed social to embed particular facebook photo albums on this site, and remains responsive.  It also has an embedded spreadshirt ecommerce store, that too remains responsive.",
-  "mywork" => "This will be replaced by some actual text later.",
+  "description" => "A group of fun-loving individuals who all have day jobs, and do Photobooth and DJing on the side",
+  "mywork" => "This is a simple website built utilizing bootstrap, making it responsive.  It is making use of HTML5 audio tags for embeded mp3 playback.  It is making use of an iframe that is using a service called embed social to embed particular facebook photo albums on this site, and remains responsive.  It also has an embedded spreadshirt ecommerce store, that too remains responsive.",
   "skills" => array("HTML", "CSS", "JS", "JQuery", "Bootstrap", "Responsive", "HTML5 Audio", "embedsocial", "spreadshirt")
 );
 
