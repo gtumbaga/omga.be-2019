@@ -34,9 +34,9 @@
         <input type="checkbox" id="menu-toggler" name="menu-toggler">
         <nav id="site-navigation">
           <ul id="nav">
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#info">Info</a></li>
+            <li><a rel="noopener" href="#hero">Home</a></li>
+            <li><a rel="noopener" href="#work">Work</a></li>
+            <li><a rel="noopener" href="#info">Info</a></li>
           </ul>
         </nav>
       </div>
@@ -107,24 +107,24 @@
         <h6>Gabriel Tumbaga</h6>
         <div class="info-row">
           <label>email:</label>
-          <?php echo $iconList['email']; ?> <a href="mailto:gatumbaga@yahoo.com">gatumbaga@yahoo.com</a>
+          <?php echo $iconList['email']; ?> <a rel="noopener" href="mailto:gatumbaga@yahoo.com">gatumbaga@yahoo.com</a>
         </div>
         <div class="info-row">
           <label>mobile:</label>
-          <?php echo $iconList['phone']; ?> <a href="tel://9252910111">925.291.0111</a>
+          <?php echo $iconList['phone']; ?> <a rel="noopener" href="tel://9252910111">925.291.0111</a>
         </div>
         <div class="info-row">
           <label>resume:</label>
           <ul>
-            <li><a href="/files/gabrieltumbaga-resume.pdf" target="_blank"><?php echo $iconList['file-pdf']; ?> gabrieltumbaga-resume.pdf</a></li>
-            <li><a href="/files/gabrieltumbaga-resume.txt" target="_blank"><?php echo $iconList['file-txt']; ?> gabrieltumbaga-resume.txt</a></li>
+            <li><a rel="noopener" href="/files/gabrieltumbaga-resume.pdf" target="_blank"><?php echo $iconList['file-pdf']; ?> gabrieltumbaga-resume.pdf</a></li>
+            <li><a rel="noopener" href="/files/gabrieltumbaga-resume.txt" target="_blank"><?php echo $iconList['file-txt']; ?> gabrieltumbaga-resume.txt</a></li>
           </ul>
         </div>
         <div class="info-row">
           <label>other links:</label>
           <ul>
-            <li><a href="https://github.com/gtumbaga" target="_blank"><?php echo $iconList['ex-link']; ?> View my GitHub profile</a></li>
-            <li><a href="https://www.linkedin.com/in/gtumbaga/" target="_blank"><?php echo $iconList['ex-link']; ?> View my LinkedIn profile</a></li>
+            <li><a rel="noopener" href="https://github.com/gtumbaga" target="_blank"><?php echo $iconList['ex-link']; ?> View my GitHub profile</a></li>
+            <li><a rel="noopener" href="https://www.linkedin.com/in/gtumbaga/" target="_blank"><?php echo $iconList['ex-link']; ?> View my LinkedIn profile</a></li>
           </ul>
         </div>
       </div>
