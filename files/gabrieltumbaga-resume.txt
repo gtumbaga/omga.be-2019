@@ -1,0 +1,76 @@
+﻿Gabriel A. Tumbaga
+(925) 291-0111
+GATumbaga@yahoo.com
+
+Objective
+To apply my knowledge and passion, as well as advance my skills as a web developer, in a fun, challenging, and productive work environment.
+
+Education
+University of Phoenix - Online
+Bachelors of Science in Information Technology, emphasizing Software Engineering October 2007- January 2010
+
+Heald College, Concord, CA
+Associate in Applied Science in Computer Technology, January 2003
+
+Skills
+HTML, CSS, JavaScript, JQuery, Bootstrap, PHP, Drupal, Wordpress, Template Development
+Angular, React Native, MySQL, Firebase Firestore, JSON, XML, API, Apache, GIT
+Responsive Design CSS/HTML, for Desktop, Tablet, and Mobile compatibility
+Familiarity with Adobe Photoshop, Adobe Lightroom
+
+Portfolio:
+My portfolio can be viewed at: https://omga.be
+
+Experience
+Staged Homes – 100% Telework (September 2018 – Present)
+Software Engineer
+* Utilizing GIT version control via github, bitbucket, and amazon codecommit.
+* Migrated Firebase Realtime Database to Firebase Firestore.
+* Utilizing Firestore and Google Cloud Functions as a back end to Angular Front End sites.
+* Utilizing MySQL and PHP for Vanilla PHP site.
+* Utilized React Native for iOS/Android App development.
+* Utilizing Trello for task management.
+
+Perazza Prints – Pleasant Hill, CA (February 2015 – Present)
+Web Software Engineer
+* Implemented use of GIT to version control all software projects
+* Implemented separation of Production, Staging, and Dev environments
+* Implemented use of Docker containers
+* Implemented use of Cloudflare for all of our websites
+* Integrated Mailchimp via use of their API’s
+* Built and maintained E-Commerce websites via Drupal Commerce
+* Built and utilized custom Drupal modules
+* Built and utilized custom PHP server side scripts
+* Built and utilized on the fly image generation tool via PHP
+* Built and utilized csv generation tool via PHP
+* Website design via Photoshop
+* Built HTML/CSS templates from Photoshop designs
+* Made use of “responsive” design techniques for auto resizing of website to fit any screen size
+* Implemented SSL certificates for https secure connections to ecommerce sites
+* Utilized Google Merchant Center and Google Webmaster Tools
+* Integrated Drupal and ShipStation utilizing available ShipStation API
+* Integrated Drupal and Inksoft (shirt design tool) utilizing available Inksoft API
+* Implemented the company wide use of “Mantis” bug tracking web-based software
+* Managed multiple LAMP environments
+
+Oneva Inc  – Oakland, CA (November 2016 – December 2017)
+Software Engineer
+* Build and maintain web platform, using Drupal as an API server in the back-end, serving JSON, and AngularJS 1.5 in the front-end
+* Managed LAMP environment running on the Microsoft Azure platform
+* Build and maintain PHP server side scripts
+* Build and maintain custom Drupal modules
+* Build HTML/CSS templates from provided designs
+* Design HTML page templates via photoshop
+* Utilize GIT repository for version control (via bitbucket)
+* Agile Development lifecycle via JIRA
+
+Decision Counsel – Berkeley, CA (March 2011 – February 2015)
+Web Developer
+* Built and maintained customized websites and custom themes via Drupal CMS
+* Built and maintained “Responsive Design” websites utilizing Bootstrap framework, both as Drupal themes, and as HTML5 templates
+* Built “Responsive Design” HTML emails
+* Maintained LAMP servers for development and production websites
+* Built HTML/CSS templates from Photoshop designs
+* Helped build and maintain custom drupal modules
+* Helped build a drupal based education platform for high profile clients such as Delta Airlines, Universal Studios, Best Western Hotels and more
+* Interacted directly with clients to scope projects and troubleshoot issues

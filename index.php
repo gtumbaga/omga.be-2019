@@ -1,5 +1,6 @@
 <?php include_once('./includes/_functions.inc.php'); ?>
 <?php include_once('./includes/_sitelist.inc.php'); ?>
+<?php include_once('./includes/_icons.inc.php'); ?>
 <!doctype html>
 <html lang="en" amp>
 <head>
@@ -45,7 +46,7 @@
     <div id="hero">
       <h1>Full Stack Web Developer</h1>
       <h2>LAMP Stack, MEAN Stack, MERN Stack</h2>
-      <a href="#info" class="btn">Contact Me!</a>
+      <a href="#info" class="btn" rel="noopener">Contact Me!</a>
     </div>
     <div id="work">
       <h2 class="section-title">My Work</h2>
@@ -60,6 +61,11 @@
           <div class="data">
           <h3><a rel="noopener" href="<?php echo $sitedata['url']; ?>" target="_blank"><?php print $sitedata['title']; ?></a></h3>
           <h4 class="rule"><?php print $sitedata['description']; ?></h4>
+          <div class="button-holder">
+            <a class="btn small" rel="noopener" href="<?php echo $sitedata['url']; ?>" target="_blank">
+             <?php echo $iconList['ex-link']; ?> Visit Site
+            </a>
+          </div>
           <p><?php echo $sitedata['mywork']; ?></p>
           </div>
           <ul class="skills">
@@ -101,19 +107,25 @@
         <h6>Gabriel Tumbaga</h6>
         <div class="info-row">
           <label>email:</label>
-          <a href="mailto:gatumbaga@yahoo.com">gatumbaga@yahoo.com</a>
+          <?php echo $iconList['email']; ?> <a href="mailto:gatumbaga@yahoo.com">gatumbaga@yahoo.com</a>
         </div>
         <div class="info-row">
           <label>mobile:</label>
-          <a href="tel://9252910111">925.291.0111</a>
+          <?php echo $iconList['phone']; ?> <a href="tel://9252910111">925.291.0111</a>
         </div>
         <div class="info-row">
           <label>resume:</label>
           <ul>
-            <li><a href="#">(PDF) gabrieltumbaga-resume.pdf</a></li>
-            <li><a href="#">(TXT) gabrieltumbaga-resume.txt</a></li>
+            <li><a href="/files/gabrieltumbaga-resume.pdf" target="_blank"><?php echo $iconList['file-pdf']; ?> gabrieltumbaga-resume.pdf</a></li>
+            <li><a href="/files/gabrieltumbaga-resume.txt" target="_blank"><?php echo $iconList['file-txt']; ?> gabrieltumbaga-resume.txt</a></li>
           </ul>
-          
+        </div>
+        <div class="info-row">
+          <label>other links:</label>
+          <ul>
+            <li><a href="https://github.com/gtumbaga" target="_blank"><?php echo $iconList['ex-link']; ?> View my GitHub profile</a></li>
+            <li><a href="https://www.linkedin.com/in/gtumbaga/" target="_blank"><?php echo $iconList['ex-link']; ?> View my LinkedIn profile</a></li>
+          </ul>
         </div>
       </div>
     </div>
