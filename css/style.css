@@ -12,13 +12,46 @@ body {
   font-family: "Trebuchet MS", sans-serif;
   font-size: 16px;
 }
+.bg-other {
+  background: #eee;
+}
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 h1 {font-size: 48px;}
 h2 {font-size: 30px;}
 h3 {font-size: 26px;}
+h4.rule {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ccc;
+}
+h2.section-title {
+  font-size: 40px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 20px 20px -20px #ccc;
+  margin: 20px;
+  padding-bottom: 10px;
+}
+.section-title {text-align: center; padding-bottom: 10px;}
+#info h6 {
+  font-size: 28px;
+}
+#info .info-row {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#info label {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 4px;
+  display: block;
+  margin-left: -10px;
+}
+#info a {
+  color: #3933FF;
+}
 a {
   text-decoration: none;
   color: #000;
@@ -32,7 +65,8 @@ hr {
   box-shadow: 0 20px 20px -20px #ccc;
   margin: -50px auto 10px;
 }
-button {
+.btn {
+  display: inline-block;
   font-size: 20px;
   padding: 20px 30px;
   background: #3933FF;
@@ -100,6 +134,11 @@ header .desc {
 #work {
   background: #fff;
   min-height: 400px;
+  padding-top: 40px;
+}
+#info {
+  margin: 0;
+  padding: 40px;
 }
 .top-bar {
   display: grid;

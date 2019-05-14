@@ -50,3 +50,24 @@ $siteList["fioprints"] = array(
   "mywork" => "This will be replaced by some actual text later.",
   "skills" => array("HTML", "CSS", "JS", "Inksoft")
 );
+
+$siteList["wedothelean"] = array(
+  "url" => "https://www.wedothelean.com/",
+  "title" => "WEDOTHELEAN",
+  "description" => "Bay Area Inspired Gear - T-Shirts, Hoodies &amp; More",
+  "mywork" => "This will be replaced by some actual text later.",
+  "skills" => array("HTML", "CSS", "JS", "Inksoft")
+);
+
+$siteList["shirtmeuptees"] = array(
+  "url" => "https://www.shirtmeuptees.com/",
+  "title" => "SHIRTMEUPTEES",
+  "description" => "Shirt Me Up Web Store",
+  "mywork" => "This will be replaced by some actual text later.",
+  "skills" => array("HTML", "CSS", "JS", "Inksoft")
+);
+
+
+
+
+

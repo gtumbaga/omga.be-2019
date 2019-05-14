@@ -33,9 +33,9 @@
         <input type="checkbox" id="menu-toggler" name="menu-toggler">
         <nav id="site-navigation">
           <ul id="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#info">Info</a></li>
           </ul>
         </nav>
       </div>
@@ -45,10 +45,11 @@
     <div id="hero">
       <h1>Full Stack Web Developer</h1>
       <h2>LAMP Stack, MEAN Stack, MERN Stack</h2>
-      <button>Contact Me!</button>
+      <a href="#info" class="btn">Contact Me!</a>
     </div>
     <div id="work">
-
+      <h2 class="section-title">My Work</h2>
+      <?php // THE PODS LOOP -------------------------------------------------------------------------------------------------- ?>
       <?php foreach($siteList as $sitekey => $sitedata): ?>
         <div class="pod constrain">
           <div class="screens">
@@ -58,7 +59,7 @@
           </div>
           <div class="data">
           <h3><a rel="noopener" href="<?php echo $sitedata['url']; ?>" target="_blank"><?php print $sitedata['title']; ?></a></h3>
-          <h4><?php print $sitedata['description']; ?></h4>
+          <h4 class="rule"><?php print $sitedata['description']; ?></h4>
           <p><?php echo $sitedata['mywork']; ?></p>
           </div>
           <ul class="skills">
@@ -69,9 +70,11 @@
         </div>
        <div class="constrain"><hr /></div>
       <?php endforeach; ?>
+      <?php // END THE PODS LOOP -------------------------------------------------------------------------------------------------- ?>
 
 
 
+      <?php if (0===1): ?>
       <div class="pod constrain">
         <div class="screens">
           <div class="device laptop"><div class="inner">480x240</div></div>
@@ -88,10 +91,30 @@
           </ul>
         </div>
       </div>
-     <div class="constrain"><hr /></div>
-      <div class="pod constrain">
-        Hello, AMP world.<br/>
-        My name is Gabe!
+      <div class="constrain"><hr /></div>
+      <?php endif; ?>
+      <br/><br/><br/>
+    </div>
+    <div class="bg-other" id="info">
+      <h2 class="section-title">My Info</h2>
+      <div class="info-inner constrain">
+        <h6>Gabriel Tumbaga</h6>
+        <div class="info-row">
+          <label>email:</label>
+          <a href="mailto:gatumbaga@yahoo.com">gatumbaga@yahoo.com</a>
+        </div>
+        <div class="info-row">
+          <label>mobile:</label>
+          <a href="tel://9252910111">925.291.0111</a>
+        </div>
+        <div class="info-row">
+          <label>resume:</label>
+          <ul>
+            <li><a href="#">(PDF) gabrieltumbaga-resume.pdf</a></li>
+            <li><a href="#">(TXT) gabrieltumbaga-resume.txt</a></li>
+          </ul>
+          
+        </div>
       </div>
     </div>
   </main>
